@@ -1,0 +1,45 @@
+body {
+  font-family: "KyivType Sans";
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 120%;
+}
+
+// font-size, font-weight, color
+h1 {
+  @include fontKyivType(
+    clamp(1rem, -0.0754rem + 4.528vw, 4rem),
+    500,
+    var(--color-black)
+  );
+}
+
+h2 {
+  @include fontKyivType(
+    clamp(1rem, 0.4623rem + 2.264vw, 2.5rem),
+    500,
+    var(--color-turquoise)
+  );
+}
+
+h3 {
+  @include fontKyivType(
+    clamp(1rem, 0.82069rem + 0.755vw, 1.5rem),
+    700,
+    var(--color-turquoise)
+  );
+}
+
+h4 {
+  @include fontKyivType(
+    clamp(1rem, 0.82069rem + 0.755vw, 1.5rem),
+    400,
+    var(--color-gray3)
+  );
+  line-height: 150%;
+}

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Bold.woff2') format('woff2'),
+        url('KyivTypeSans-Bold.woff') format('woff'),
+        url('KyivTypeSans-Bold.svg#KyivTypeSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Medium.woff2') format('woff2'),
+        url('KyivTypeSans-Medium.woff') format('woff'),
+        url('KyivTypeSans-Medium.svg#KyivTypeSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Regular.woff2') format('woff2'),
+        url('KyivTypeSans-Regular.woff') format('woff'),
+        url('KyivTypeSans-Regular.svg#KyivTypeSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'KyivType Sans';
+    src: url('KyivTypeSans-Light.woff2') format('woff2'),
+        url('KyivTypeSans-Light.woff') format('woff'),
+        url('KyivTypeSans-Light.svg#KyivTypeSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

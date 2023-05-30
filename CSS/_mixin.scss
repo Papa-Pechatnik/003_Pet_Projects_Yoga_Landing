@@ -1,0 +1,7 @@
+@mixin fontKyivType ($font-size, $font-weight, $color) {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    color: $color;
+  }
